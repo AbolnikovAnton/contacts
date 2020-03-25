@@ -1,0 +1,11 @@
+.contact-row{
+    display: flex;
+    flex-direction: row;
+    &>*{
+        font-weight: bold;
+        font-size: 20px;
+        padding-inline-start: 15px;
+        padding-inline-end: 15px;
+    }
+
+}
