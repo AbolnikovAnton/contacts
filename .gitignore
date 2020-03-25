@@ -106,3 +106,5 @@ dist
 e2e/
 
 package-lock.json
+
+.idea/

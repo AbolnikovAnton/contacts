@@ -1,6 +1,6 @@
-<div class="contact-row" *ngFor="let contact of contacts">
-    <div class="name">{{contact.name}}</div>
-    <div class="surname">{{contact.surname}}</div>
+<mat-card class="contact-row" *ngFor="let contact of contacts">
+    <mat-card-title class="name">{{contact.name}}</mat-card-title>
+    <mat-card-content class="surname">{{contact.surname}}</mat-card-content>
     <div class="telephone">{{contact.telephone}}</div>
     <div class="city">{{contact.city}}</div>
-</div>
+</mat-card>
